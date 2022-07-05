@@ -21,19 +21,19 @@
             <fieldset>
                 <legend>Choose temperature</legend>
                 <div class="fahrenheit">
-                    <input type="radio" id="fah">
+                    <input type="radio" id="fah" name="temp" checked>
                     <label for="fah">fahrenheit</label>
                 </div>
 
                 <div class="celsius">
-                    <input type="radio" id="cel">
+                    <input type="radio" id="cel" name="temp">
                     <label for="cel">celsius</label>
                 </div>
             </fieldset>
         </div>
 
         <div class="calculate">
-            <button type="submit">Convert</button>
+            <button type="submit" onclick="convert()">Convert</button>
             <p><span class="result">0</span> Degrees</p>
         </div>
 
