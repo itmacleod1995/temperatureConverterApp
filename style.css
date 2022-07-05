@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    color: white;
+    background-color: black;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container label {
+    font-size: 20px;
+}
+
+.container input {
+    padding: 5px 15px;
+}
