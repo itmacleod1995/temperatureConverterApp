@@ -13,8 +13,26 @@
 
     <div class="container">
         <h1 class="title">Temperature Converter</h1>
-        <label for="temp">Enter temperature in fahrenheit</label>
-        <input type="text" id="temp">
+        <div class="tempInput">
+            <label for="temp">Enter temperature</label>
+            <input type="text" id="temp">
+        </div>
+        <div class="chooseTemp">
+            <fieldset>
+                <legend>Choose temperature</legend>
+                <div class="fahrenheit">
+                    <input type="radio" id="fah">
+                    <label for="fah">fahrenheit</label>
+                </div>
+
+                <div class="celsius">
+                    <input type="radio" id="cel">
+                    <label for="cel">celsius</label>
+                </div>
+            </fieldset>
+
+
+        </div>
     </div>
 
 

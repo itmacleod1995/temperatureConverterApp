@@ -1,17 +1,27 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .title {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .container {
     color: white;
-    background-color: black;
-    width: 75%;
-    margin: 0 auto;
+    background-color: grey;
+    width: 50%;
+    height: 300px;
 }
 
 .container label {
@@ -20,4 +30,19 @@
 
 .container input {
     padding: 5px 15px;
+}
+
+.tempInput {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chooseTemp {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
 }
